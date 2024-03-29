@@ -1,17 +1,28 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
 import ConfettiBackground from "./ConfettiBackground";
+import Modal from "./Modal";
 import "./App.css";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       console.log("loading");
       setLoading(false);
-    }, 5000);
+    }, 1000);
   }, []);
+
+  const handleImageClick = () => {
+    setShowModal(true);
+    console.log("sup");
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   return (
     <div>
@@ -22,11 +33,16 @@ const App = () => {
         </>
       ) : (
         <div className="main">
-          {/* Your main content when loading is finished */}
-          <img src="./public/img/2.webp" alt="" className="glow-background" />
+          <img
+            src="./public/img/2.webp"
+            alt=""
+            className="glow-background"
+            onClick={handleImageClick}
+          />
           <ConfettiBackground />
         </div>
       )}
+      {showModal && <Modal onClose={handleCloseModal} />}
     </div>
   );
 };
