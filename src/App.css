@@ -20,6 +20,10 @@ body {
 p {
   color: white;
 }
+h2 {
+  color: white;
+  text-align: center;
+}
 @keyframes spin {
   to {
     transform: rotate(360deg);

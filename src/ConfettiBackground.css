@@ -1,0 +1,134 @@
+/* ConfettiBackground.css */
+
+@keyframes beam1 {
+  0% {
+    top: -30%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes beam2 {
+  0% {
+    top: -40%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes beam3 {
+  0% {
+    top: -50%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+@keyframes beam4 {
+  0% {
+    top: -60%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+@keyframes beam5 {
+  0% {
+    top: -70%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+@keyframes beam6 {
+  0% {
+    top: -30%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+@keyframes beam7 {
+  0% {
+    top: -40%;
+    opacity: 0;
+  }
+  100% {
+    top: 100%;
+    opacity: 1;
+  }
+}
+
+.confetti-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.beam {
+  position: absolute;
+  width: 4px;
+  height: 40%;
+  /* background-color: rgba(
+    255,
+    255,
+    255,
+    0.3
+  ); Adjust beam color and opacity */
+}
+
+.beam1 {
+  left: 10%; /* Adjust the position of the beam */
+  animation: beam1 2s linear infinite; /* Adjust the animation duration */
+  background-color: #ffbe0b;
+}
+
+.beam2 {
+  left: 50%; /* Adjust the position of the beam */
+  animation: beam2 1.5s linear infinite; /* Adjust the animation duration */
+  background-color: #fb5607;
+}
+
+.beam3 {
+  left: 90%; /* Adjust the position of the beam */
+  animation: beam3 2.5s linear infinite; /* Adjust the animation duration */
+  background-color: #ff006e;
+}
+.beam4 {
+  left: 30%; /* Adjust the position of the beam */
+  animation: beam3 1s linear infinite; /* Adjust the animation duration */
+  background-color: #8338ec;
+}
+.beam5 {
+  left: 70%; /* Adjust the position of the beam */
+  animation: beam3 1s linear infinite; /* Adjust the animation duration */
+  background-color: #3a86ff;
+}
+.beam6 {
+  left: 35%; /* Adjust the position of the beam */
+  animation: beam3 1s linear infinite; /* Adjust the animation duration */
+  background-color: #390099;
+}
+.beam7 {
+  left: 80%; /* Adjust the position of the beam */
+  animation: beam3 1s linear infinite; /* Adjust the animation duration */
+  background-color: #ff5400;
+}

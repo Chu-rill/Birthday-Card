@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loading from "./Loading";
+import ConfettiBackground from "./ConfettiBackground";
 import "./App.css";
 
 const App = () => {
@@ -9,13 +10,16 @@ const App = () => {
     setTimeout(() => {
       console.log("loading");
       setLoading(false);
-    }, 3000);
+    }, 5000);
   }, []);
 
   return (
     <div>
       {loading ? (
-        <Loading />
+        <>
+          <Loading />
+          <ConfettiBackground />
+        </>
       ) : (
         <div>
           {/* Your main content when loading is finished */}
