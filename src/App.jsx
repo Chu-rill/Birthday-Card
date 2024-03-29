@@ -21,9 +21,10 @@ const App = () => {
           <ConfettiBackground />
         </>
       ) : (
-        <div>
+        <div className="main">
           {/* Your main content when loading is finished */}
-          <h1>Main Content</h1>
+          <img src="./public/img/2.webp" alt="" className="glow-background" />
+          <ConfettiBackground />
         </div>
       )}
     </div>
