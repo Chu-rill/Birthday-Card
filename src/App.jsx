@@ -38,6 +38,7 @@ const App = () => {
             alt=""
             className="glow-background"
             onClick={handleImageClick}
+            loading="lazy"
           />
           <h1>Tap Me</h1>
           <ConfettiBackground />
