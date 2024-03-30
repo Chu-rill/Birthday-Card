@@ -12,7 +12,7 @@ const App = () => {
     setTimeout(() => {
       console.log("loading");
       setLoading(false);
-    }, 1000);
+    }, 4000);
   }, []);
 
   const handleImageClick = () => {
@@ -34,11 +34,12 @@ const App = () => {
       ) : (
         <div className="main">
           <img
-            src="./public/img/2.webp"
+            src="./public/img/6.webp"
             alt=""
             className="glow-background"
             onClick={handleImageClick}
           />
+          <h1>Tap Me</h1>
           <ConfettiBackground />
         </div>
       )}
