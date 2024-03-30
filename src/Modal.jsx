@@ -23,8 +23,13 @@ const Modal = ({ onClose }) => {
           Happy birthday Seyiiiii You’re an amazing person and I feel so blessed
           to know you. I hope all your birthdays are great, all your years are
           full of adventures and that every dream you have will eventually
-          become a reality. Cheers to forever being partners in crime Now stop
-          being so annoying and send your account number to me 😊
+          become a reality.
+          <br></br>
+          <br></br>
+          Cheers to forever being partners in crime 🥂
+          <br></br>
+          <br></br>
+          Now stop being so annoying and send your account number to me 😊
         </p>
       </div>
     </div>
