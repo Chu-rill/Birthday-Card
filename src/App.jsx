@@ -34,7 +34,7 @@ const App = () => {
       ) : (
         <div className="main">
           <img
-            src="/img/6.webp"
+            src="6.webp"
             alt=""
             className="glow-background"
             onClick={handleImageClick}

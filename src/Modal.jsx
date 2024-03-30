@@ -18,7 +18,7 @@ const Modal = ({ onClose }) => {
         <span className="close" onClick={closeModal}>
           &times;
         </span>
-        <img src="/img/1.webp" alt="" id="cake" />
+        <img src="1.webp" alt="" id="cake" />
         <p>
           Happy birthday Seyiiiii You’re an amazing person and I feel so blessed
           to know you. I hope all your birthdays are great, all your years are
