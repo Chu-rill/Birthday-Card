@@ -1,6 +1,7 @@
 body {
   background-color: color-mix(in srgb, white, black 30%);
   overflow: hidden;
+  padding: 20px;
 }
 .loading-container {
   display: flex;
@@ -73,18 +74,18 @@ h2 {
   .modal-content {
     width: 280px;
     max-height: 600px;
-    background-color: red;
+    /* background-color: red; */
   }
   #cake {
     position: absolute;
-    left: 70px;
+    left: 80px;
   }
 }
 
 #cake {
   position: absolute;
   top: -30px;
-  left: 130px;
+  left: 110px;
 }
 .modal-content p {
   margin-top: 50px;
