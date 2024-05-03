@@ -11,7 +11,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       console.log("loading");
-      // console.log("heppy birthday");
+      console.log("heppy birthday");
       setLoading(false);
     }, 4000);
   }, []);
